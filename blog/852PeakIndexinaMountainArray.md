@@ -1,4 +1,6 @@
-# 1일차 산 배열의 꼭대기 인덱스
+![holykiwi_big.png](https://cdn.steemitimages.com/DQmbwuk85jhorPvZoCb13F7gouFg5JH9gKPBWe4H5ecthQT/holykiwi_big.png)
+
+# [코딩문제풀기 1일차] Peak Index in a Mountain Array
 
 ## Introduction
 
