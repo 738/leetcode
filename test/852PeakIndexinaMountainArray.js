@@ -2,9 +2,8 @@
  * @param {number[]} A
  * @return {number}
  */
-var peakIndexInMountainArray = function(A) {
-    var peak = -1;
-    var answer = -1;
+let peakIndexInMountainArray = A => {
+    let peak = -1, answer = -1;
     A.forEach((v, i) => {
         if (v > peak) {
             peak = v;
