@@ -6,7 +6,7 @@ let maxDistToClosest = seats => {
     let max = 0;
     seats.join('').split('1').forEach((v, i, a) => {
         let tmp = (i === 0 || i === a.length - 1) ? v.length : Math.ceil(v.length/2);
-        if (tmp >= max) max = tmp;
+        if (tmp > max) max = tmp;
     });
     return max;
 };

@@ -13,6 +13,7 @@
 //     return answer;
 // };
 
+// my second solution
 let peakIndexInMountainArray = A => A.indexOf(Math.max(...A));
 
 console.log(peakIndexInMountainArray([0,1,0])); // 1
