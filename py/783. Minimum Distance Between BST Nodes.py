@@ -19,7 +19,7 @@ class Solution:
             res.append(num2 - num1)
         return min(res)
 
-# by recursive
+# # by recursive
 # class Solution(object):
 #     pre = -float('inf')
 #     res = float('inf')
